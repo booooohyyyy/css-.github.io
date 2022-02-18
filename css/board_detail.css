@@ -1,0 +1,90 @@
+.detail-info {
+    min-height: 345px;
+}
+.detail-info > .title {
+    font-size: 24px;
+}
+.detail-info > .price {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-size: 30px;
+    padding: 10px 0;
+}
+b, strong {font-weight: bold;}
+.detail-info > .delivery {
+    color: #888;
+}
+/* 버튼영역 */
+.detail-control > .price, .detail-control > .order {overflow: hidden;}
+.detail-control .price .left {
+    font-size: 18px;
+    line-height: 45px;
+}
+.detail-control .left {float: left;}
+.detail-control .right {float: right;}
+.detail-control .price .right {
+    font-size: 30px;
+}
+.detail-control .order .left, .detail-control .order .right {
+    width: 50%;
+    height: 60px;
+    font-size: 18px;
+}
+
+
+
+.reply-wrap {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+.reply-wrap .reply-image {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.reply-wrap .reply-content {
+    padding-left: 60px;
+}
+.reply-content textarea {
+    resize: vertical;
+    width: 100%;
+    min-height: 80px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.reply-content textarea:focus {
+    height: 200px;
+}
+.reply-group {
+    overflow: hidden;
+}
+.reply-input {
+    float: left;
+}
+.reply-group .right {
+    float: right;
+}
+.reply-input > .form-control {
+    width: 200px;
+    margin-bottom: 5px;
+}
+.reply-group small, .reply-group strong {
+    float: left;
+}
+.reply-group .right {
+    float: right;
+}
+.reply-group small {
+    margin-left: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+.reply-group a {
+    text-decoration: none;
+    color: #777;
+}
+.clearfix {
+    margin: 0 0 10px;
+}
